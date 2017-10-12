@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: sans-serif;
+}
+html,body{
+    background-color: #B2FFEC;
+}
+h1{
+    font-family: "Bree Serif", Palatino, "Lucida Bright", serif;
+    font-size: 3.998rem;
+    color: darkgreen;
+    padding:1rem 2rem;
+    font-weight: 200;
+}
+h2{
+    font-family: "Bree Serif", Palatino, "Lucida Bright", serif;
+    font-size: 2.827rem;
+    color: #C7553F;
+    padding:1rem 2rem;
+    font-weight: 500;
+    font-style: italic;
+}
+nav ul{
+    padding:1rem 0;
+}
+nav li{
+    font-size: 1.999rem;
+    list-style-type: none;
+}
+nav li>a{
+    display: block;
+    text-decoration: none;
+    border-bottom: 0.2rem solid #B2FFEC;
+    padding: 0.2rem 2rem;
+    color: green;
+    font-family:"Open Sans", Verdana, Tahoma, sans-serif;
+}
+nav li>a:hover,
+nav li>a:active{
+    color: lightseagreen;
+}
+p{
+    font-size: 1.414rem;
+    padding:0.5rem 2rem;
+    font-family: "Open Sans", Verdana, Tahoma, sans-serif;
+}
+main p:last-child{
+    padding-bottom: 4rem;
+}
+.wrapper{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #FFDDD2;
+}
+header{
+    width:100%;
+    border-bottom: 1rem solid #B2FFEC;
+}
+nav{
+    float:left;
+    width: 38.2%;
+}
+main{
+    float:right;
+    width: 61.8%;
+}
+footer{
+    clear:both;
+    width: 100%;
+    border-top: 0.5rem solid #B2FFEC;
+}
+footer p{
+    font-size: 1rem;
+    font-family: "Open Sans", Verdana, Tahoma, sans-serif;
+    padding: 2rem;
+    color: seagreen;
+}
